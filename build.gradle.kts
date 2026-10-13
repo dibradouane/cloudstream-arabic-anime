@@ -1,3 +1,10 @@
+cloudstream {
+    description = "Anime sources ported from CloudStream-Arabic-Repo"
+    authors = listOf("CloudStream Arabic")
+    status = 3
+    tvTypes = listOf("Anime")
+    language = "ar"
+    version = 1
 import com.android.build.gradle.BaseExtension
 import com.lagradost.cloudstream3.gradle.CloudstreamExtension
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
